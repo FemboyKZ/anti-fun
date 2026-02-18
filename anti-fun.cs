@@ -16,7 +16,9 @@ public class AntiFun : BasePlugin
     public override void Load(bool hotReload)
     {
         AddCommand("css_breakall", "Break all func_breakable entities", Cmd_BreakAll);
+        AddCommand("css_nofun", "Break all func_breakable entities", Cmd_BreakAll);
         AddCommand("css_breakall_debug", "Break all func_breakable entities with debug info", Cmd_BreakAllDebug);
+        AddCommand("css_nofun_debug", "Break all func_breakable entities with debug info", Cmd_BreakAllDebug);
     }
     private int BreakAllBreakables()
     {
