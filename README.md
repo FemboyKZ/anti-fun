@@ -9,7 +9,7 @@ Requires SM1.11+
 
 `sm_nofun` / `sm_breakall`
 
-`sm_nofun_debug` - `sm_breakall_debug`
+`sm_nofun_debug` / `sm_breakall_debug`
 
 ## CS2
 
@@ -17,4 +17,4 @@ Requires CS#
 
 `css_nofun` / `css_breakall`
 
-`css_nofun_debug` - `css_breakall_debug`
+`css_nofun_debug` / `css_breakall_debug`
