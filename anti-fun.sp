@@ -6,7 +6,7 @@
 
 public Plugin myinfo =
 {
-    name        = "Break All Func_Breakable",
+    name        = "Anti-Fun",
     author      = "jvnipers",
     description = "Breaks all func_breakable entities on command",
     version     = "0.0.1",
