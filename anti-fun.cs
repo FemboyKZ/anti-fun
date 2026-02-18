@@ -58,7 +58,8 @@ public class AntiFun : BasePlugin
 
         if (player != null && player.IsValid)
         {
-            player.PrintToConsole("No more fun. View console for details...");
+            player.PrintToChat("No more fun. View console for details...");
+            player.PrintToConsole("No more fun.");
         }
         else
         {
@@ -97,6 +98,7 @@ public class AntiFun : BasePlugin
 
         if (player != null && player.IsValid)
         {
+            player.PrintToChat(summary);
             player.PrintToConsole(summary);
         }
         else
